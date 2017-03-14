@@ -4,9 +4,6 @@ project(http-server)
 
 set(CMAKE_CXX_STANDARD 11)
 set(EXECUTABLE_OUTPUT_PATH "bin")
-set(RUNTIME_OUTPUT_DIRECTORY "bin")
-set(LIBRARY_OUTPUT_DIRECTORY "bin")
-set(ARCHIVE_OUTPUT_DIRECTORY "bin")
 
 # add_subdirectory(src)
 

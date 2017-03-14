@@ -34,4 +34,8 @@ CMakeCache.txt
 cmake_install.cmake
 
 # Binary dir
-bin/*
+bin
+bin/**
+
+# Makefile
+Makefile
