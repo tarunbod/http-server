@@ -39,3 +39,6 @@ bin/**
 
 # Makefile
 Makefile
+
+# VSCode directory
+.vscode

@@ -7,5 +7,10 @@ set(EXECUTABLE_OUTPUT_PATH "bin")
 
 # add_subdirectory(src)
 
-set(SOURCE_FILES "src/server.cpp")
+include_directories("include")
+set(SOURCE_FILES
+    "src/main.cpp" "src/server.cpp" "src/debug.cpp" "src/config.cpp"
+    "include/server.h" "include/debug.h" "include/config.h"
+)
+
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
